@@ -39,12 +39,7 @@ function loadMainPageContent() {
 
     galleryDiv.append(figure1, figure2, figure3);
 
-    let footer = document.createElement("div");
-    footer.classList.add("center");
-    footer.classList.add("footer");
-    footer.innerText = "4600 150th Ave NE Redmond, WA 98052"
-
-    contentDiv.append(headerDiv, galleryDiv, footer);
+    contentDiv.append(headerDiv, galleryDiv);
 }
 
 export {loadMainPageContent}; 
