@@ -21,7 +21,6 @@ function loadMainMenu() {
 
     menuDiv.append(homeLink, menuLink, contactLink);
     contentDiv.appendChild(menuDiv);
-
 }
 
 function loadFooter() {

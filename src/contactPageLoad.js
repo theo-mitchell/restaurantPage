@@ -1,3 +1,5 @@
+import contactPageImage from './img/contactPageImage.jpg'
+
 function loadContactPageContent () {
     let contentDiv = document.getElementById("content");
 
@@ -5,7 +7,7 @@ function loadContactPageContent () {
     figure.classList.add("center");
     let image = document.createElement("img");
     image.classList.add("gallery__img");
-    image.setAttribute('src','../src/img/contact_page_pic.jpg');
+    image.setAttribute('src', contactPageImage);
     image.setAttribute('alt',"Don't talk to me or my son ever again");
     image.style.height = "40%"
     image.style.width = "40%"

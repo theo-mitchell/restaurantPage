@@ -1,3 +1,6 @@
+import menuItem1 from './img/menuItem1.jpg';
+import menuItem2 from './img/menuItem2.jpg';
+
 function loadMenuPageContent () {
     let contentDiv = document.getElementById("content");
 
@@ -13,7 +16,7 @@ function loadMenuPageContent () {
     figure1.classList.add("center");
     let image1 = document.createElement("img");
     image1.classList.add("gallery__img");
-    image1.setAttribute('src','../src/img/menuitem1.jpg');
+    image1.setAttribute('src', menuItem1);
     image1.setAttribute('alt',"da pasta");
     image1.style.height = "35%"
     image1.style.width = "35%"
@@ -27,7 +30,7 @@ function loadMenuPageContent () {
     figure2.classList.add("center");
     let image2 = document.createElement("img");
     image2.classList.add("gallery__img");
-    image2.setAttribute('src','../src/img/menuitem2.jpg');
+    image2.setAttribute('src', menuItem2);
     image2.setAttribute('alt',"da pasta");
     image2.style.height = "40%"
     image2.style.width = "40%"

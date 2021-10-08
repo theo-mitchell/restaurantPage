@@ -1,3 +1,7 @@
+import luigi1 from './img/luigi1.jpg';
+import luigi2 from './img/luigi2.jpg';
+import pizza from './img/pizza.jpg';
+
 function loadMainPageContent() {
     let contentDiv = document.getElementById("content");
 
@@ -17,7 +21,7 @@ function loadMainPageContent() {
     figure1.classList.add("gallery__item");
     let image1 = document.createElement("img");
     image1.classList.add("gallery__img");
-    image1.setAttribute('src','../src/img/luigi1.jpg');
+    image1.setAttribute('src', luigi1);
     image1.setAttribute('alt','Lugi1');
     figure1.appendChild(image1);
 
@@ -25,7 +29,7 @@ function loadMainPageContent() {
     figure2.classList.add("gallery__item");
     let image2 = document.createElement("img");
     image2.classList.add("gallery__img");
-    image2.setAttribute('src','../src/img/pizza.jpg');
+    image2.setAttribute('src',pizza);
     image2.setAttribute('alt','pizzer');
     figure2.appendChild(image2);
 
@@ -33,7 +37,7 @@ function loadMainPageContent() {
     figure3.classList.add("gallery__item");
     let image3 = document.createElement("img");
     image3.classList.add("gallery__img");
-    image3.setAttribute('src','../src/img/luigi2.jpg');
+    image3.setAttribute('src', luigi2);
     image3.setAttribute('alt','Lugi2');
     figure3.appendChild(image3);
 
